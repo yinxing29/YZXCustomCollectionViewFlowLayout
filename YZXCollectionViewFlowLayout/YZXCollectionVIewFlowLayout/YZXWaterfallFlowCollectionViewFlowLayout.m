@@ -85,15 +85,16 @@
     self.layoutAllItemsAtt = [array copy];
 }
 
-- (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
-{
-    return YES;
-}
-
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect
 {
+    NSMutableArray *mutableArr = [NSMutableArray array];
+    for (UICollectionViewLayoutAttributes *attributes in self.layoutAllItemsAtt) {
+        if (CGRectIntersectsRect(rect, attributes.frame)) {
+            [mutableArr addObject:attributes];
+        }
+    }
     // 返回修改后的布局信息
-    return self.layoutAllItemsAtt;
+    return [mutableArr copy];
 }
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath

@@ -57,7 +57,7 @@
 #pragma mark - <YZXWaterfallFlowCollectionViewFlowLayoutDelegate>
 - (YZXWaterfallFlowCollectionViewSlidingDirection)waterfallFlowSlidingDirection
 {
-    return YZXWaterfallFlowCollectionViewSlidingDirectionWithHorizontalSliding;
+    return YZXWaterfallFlowCollectionViewSlidingDirectionWithVerticalSliding;
 }
 
 - (NSInteger)numberForLineToWaterfallFlow

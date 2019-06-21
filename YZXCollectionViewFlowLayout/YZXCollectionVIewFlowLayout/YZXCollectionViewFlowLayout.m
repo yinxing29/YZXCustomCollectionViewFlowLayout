@@ -142,9 +142,11 @@ static NSString *const kYZXDECORATIONVIEW = @"yzx_decoration_view";
         }
     }
     
+    // 添加DecorationView
     if (sections == 0) {
         return arr;
     }
+    
     for (int i = 0; i<sections; i++) {
         UICollectionViewLayoutAttributes *decorationViewAtts = [self layoutAttributesForDecorationViewOfKind:kYZXDECORATIONVIEW atIndexPath:[NSIndexPath indexPathForItem:0 inSection:i]];
         if (decorationViewAtts && CGRectIntersectsRect(rect, decorationViewAtts.frame)) {
