@@ -10,18 +10,39 @@
 
 @interface YZXWaterfallFlowCollectionViewFlowLayout ()
 
+/**
+ 滑动方向
+ */
 @property (nonatomic, assign) YZXWaterfallFlowCollectionViewSlidingDirection       slidingDirection;
 
+/**
+ 一行（垂直滑动）或者一列（水平滑动）的item个数
+ */
 @property (nonatomic, assign) NSInteger                                            numberOfRows;
 
+/**
+ item的width，垂直滑动时使用
+ */
 @property (nonatomic, assign) CGFloat                                              itemWidth;
 
+/**
+ item的height，水平滑动时使用
+ */
 @property (nonatomic, assign) CGFloat                                              itemHeight;
 
+/**
+ 用于记录垂直滑动时，每列的底部高度
+ */
 @property (nonatomic, strong) NSMutableArray                                       *columnMaxYs;
 
+/**
+ 用于记录水平滑动时，每行的最大长度
+ */
 @property (nonatomic, strong) NSMutableArray                                       *rowMaxXs;
 
+/**
+ 用于记录被修改后的UICollectionViewLayoutAttributes信息
+ */
 @property (nonatomic, copy) NSArray <UICollectionViewLayoutAttributes *>           *layoutAllItemsAtt;
 
 @end

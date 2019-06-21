@@ -14,8 +14,6 @@ static NSString *const kYZXDECORATIONVIEW = @"yzx_decoration_view";
 
 @interface YZXCollectionViewFlowLayout ()
 
-@property (nonatomic, strong) NSInvocation       *invocation;
-
 @end
 
 @implementation YZXCollectionViewFlowLayout
