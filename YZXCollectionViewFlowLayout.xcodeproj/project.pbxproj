@@ -124,8 +124,6 @@
 				8528FF7E22BB67FC006F91EF /* YZXAdditionalViewController.m */,
 				8528FF7A22BB67E3006F91EF /* YZXWaterfallFlowViewController.h */,
 				8528FF7B22BB67E3006F91EF /* YZXWaterfallFlowViewController.m */,
-				852707BD22B9E49F003F959A /* YZXCollectionDecorationView.h */,
-				852707BE22B9E49F003F959A /* YZXCollectionDecorationView.m */,
 				852707B922B9E393003F959A /* YZXCollectionVIewFlowLayout */,
 				8527078D22B9E380003F959A /* Main.storyboard */,
 				8527079022B9E381003F959A /* Assets.xcassets */,
@@ -157,12 +155,22 @@
 		852707B922B9E393003F959A /* YZXCollectionVIewFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				8559ED8A22C0B5B50091C7A1 /* DecorationView */,
 				852707BA22B9E3B4003F959A /* YZXCollectionViewFlowLayout.h */,
 				852707BB22B9E3B4003F959A /* YZXCollectionViewFlowLayout.m */,
 				8528FF7722BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.h */,
 				8528FF7822BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.m */,
 			);
 			path = YZXCollectionVIewFlowLayout;
+			sourceTree = "<group>";
+		};
+		8559ED8A22C0B5B50091C7A1 /* DecorationView */ = {
+			isa = PBXGroup;
+			children = (
+				852707BD22B9E49F003F959A /* YZXCollectionDecorationView.h */,
+				852707BE22B9E49F003F959A /* YZXCollectionDecorationView.m */,
+			);
+			path = DecorationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,12 +482,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7TC5X9L5S;
 				INFOPLIST_FILE = YZXCollectionViewFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.base.project.YZXCollectionViewFlowLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blt.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,12 +500,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7TC5X9L5S;
 				INFOPLIST_FILE = YZXCollectionViewFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.base.project.YZXCollectionViewFlowLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blt.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
