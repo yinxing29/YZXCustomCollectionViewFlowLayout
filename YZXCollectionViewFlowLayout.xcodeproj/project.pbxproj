@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851FCC3C22C1F256002B43D0 /* YZXCoverViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FCC3B22C1F256002B43D0 /* YZXCoverViewViewController.m */; };
+		851FCC3F22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FCC3E22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m */; };
 		8527078922B9E380003F959A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8527078822B9E380003F959A /* AppDelegate.m */; };
 		8527078C22B9E380003F959A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8527078B22B9E380003F959A /* ViewController.m */; };
 		8527078F22B9E380003F959A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8527078D22B9E380003F959A /* Main.storyboard */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851FCC3A22C1F256002B43D0 /* YZXCoverViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXCoverViewViewController.h; sourceTree = "<group>"; };
+		851FCC3B22C1F256002B43D0 /* YZXCoverViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCoverViewViewController.m; sourceTree = "<group>"; };
+		851FCC3D22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXCoverViewCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		851FCC3E22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCoverViewCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		8527078422B9E380003F959A /* YZXCollectionViewFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZXCollectionViewFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8527078722B9E380003F959A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8527078822B9E380003F959A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,7 +130,9 @@
 				8528FF7E22BB67FC006F91EF /* YZXAdditionalViewController.m */,
 				8528FF7A22BB67E3006F91EF /* YZXWaterfallFlowViewController.h */,
 				8528FF7B22BB67E3006F91EF /* YZXWaterfallFlowViewController.m */,
-				852707B922B9E393003F959A /* YZXCollectionVIewFlowLayout */,
+				851FCC3A22C1F256002B43D0 /* YZXCoverViewViewController.h */,
+				851FCC3B22C1F256002B43D0 /* YZXCoverViewViewController.m */,
+				852707B922B9E393003F959A /* YZXCollectionViewFlowLayout */,
 				8527078D22B9E380003F959A /* Main.storyboard */,
 				8527079022B9E381003F959A /* Assets.xcassets */,
 				8527079222B9E381003F959A /* LaunchScreen.storyboard */,
@@ -152,7 +160,7 @@
 			path = YZXCollectionViewFlowLayoutUITests;
 			sourceTree = "<group>";
 		};
-		852707B922B9E393003F959A /* YZXCollectionVIewFlowLayout */ = {
+		852707B922B9E393003F959A /* YZXCollectionViewFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
 				8559ED8A22C0B5B50091C7A1 /* DecorationView */,
@@ -160,8 +168,10 @@
 				852707BB22B9E3B4003F959A /* YZXCollectionViewFlowLayout.m */,
 				8528FF7722BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.h */,
 				8528FF7822BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.m */,
+				851FCC3D22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.h */,
+				851FCC3E22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m */,
 			);
-			path = YZXCollectionVIewFlowLayout;
+			path = YZXCollectionViewFlowLayout;
 			sourceTree = "<group>";
 		};
 		8559ED8A22C0B5B50091C7A1 /* DecorationView */ = {
@@ -303,12 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851FCC3C22C1F256002B43D0 /* YZXCoverViewViewController.m in Sources */,
 				852707BC22B9E3B4003F959A /* YZXCollectionViewFlowLayout.m in Sources */,
 				8528FF7922BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.m in Sources */,
 				8528FF7C22BB67E3006F91EF /* YZXWaterfallFlowViewController.m in Sources */,
 				8528FF7F22BB67FC006F91EF /* YZXAdditionalViewController.m in Sources */,
 				8527078C22B9E380003F959A /* ViewController.m in Sources */,
 				8527079722B9E381003F959A /* main.m in Sources */,
+				851FCC3F22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m in Sources */,
 				852707BF22B9E49F003F959A /* YZXCollectionDecorationView.m in Sources */,
 				8527078922B9E380003F959A /* AppDelegate.m in Sources */,
 			);

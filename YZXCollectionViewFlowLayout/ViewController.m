@@ -29,7 +29,9 @@
 #pragma mark - 初始化
 - (void)p_initData
 {
-    self.dataSource = @[@{@"desc":@"附加视图（headerView，footerView，decroationView）",@"controller":@"YZXAdditionalViewController"},@{@"desc":@"瀑布流",@"controller":@"YZXWaterfallFlowViewController"}];
+    self.dataSource = @[@{@"desc":@"附加视图（headerView，footerView，decroationView）",@"controller":@"YZXAdditionalViewController"},
+                        @{@"desc":@"瀑布流",@"controller":@"YZXWaterfallFlowViewController"},
+                        @{@"desc":@"CoverView",@"controller":@"YZXCoverViewViewController"}];
 }
 
 - (void)p_initView
