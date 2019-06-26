@@ -31,7 +31,8 @@
 {
     self.dataSource = @[@{@"desc":@"附加视图（headerView，footerView，decroationView）",@"controller":@"YZXAdditionalViewController"},
                         @{@"desc":@"瀑布流",@"controller":@"YZXWaterfallFlowViewController"},
-                        @{@"desc":@"CoverView",@"controller":@"YZXCoverViewViewController"}];
+                        @{@"desc":@"CoverView",@"controller":@"YZXCoverViewViewController"},
+                        @{@"desc":@"长按移动item",@"controller":@"YZXLongGestureMoveItemViewController"}];
 }
 
 - (void)p_initView

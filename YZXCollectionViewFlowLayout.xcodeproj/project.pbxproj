@@ -22,6 +22,7 @@
 		8528FF7922BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8528FF7822BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.m */; };
 		8528FF7C22BB67E3006F91EF /* YZXWaterfallFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8528FF7B22BB67E3006F91EF /* YZXWaterfallFlowViewController.m */; };
 		8528FF7F22BB67FC006F91EF /* YZXAdditionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8528FF7E22BB67FC006F91EF /* YZXAdditionalViewController.m */; };
+		853F27C322C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F27C222C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		8528FF7B22BB67E3006F91EF /* YZXWaterfallFlowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXWaterfallFlowViewController.m; sourceTree = "<group>"; };
 		8528FF7D22BB67FC006F91EF /* YZXAdditionalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXAdditionalViewController.h; sourceTree = "<group>"; };
 		8528FF7E22BB67FC006F91EF /* YZXAdditionalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXAdditionalViewController.m; sourceTree = "<group>"; };
+		853F27C122C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXLongGestureMoveItemViewController.h; sourceTree = "<group>"; };
+		853F27C222C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXLongGestureMoveItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				8528FF7B22BB67E3006F91EF /* YZXWaterfallFlowViewController.m */,
 				851FCC3A22C1F256002B43D0 /* YZXCoverViewViewController.h */,
 				851FCC3B22C1F256002B43D0 /* YZXCoverViewViewController.m */,
+				853F27C122C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.h */,
+				853F27C222C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.m */,
 				852707B922B9E393003F959A /* YZXCollectionViewFlowLayout */,
 				8527078D22B9E380003F959A /* Main.storyboard */,
 				8527079022B9E381003F959A /* Assets.xcassets */,
@@ -316,6 +321,7 @@
 				851FCC3C22C1F256002B43D0 /* YZXCoverViewViewController.m in Sources */,
 				852707BC22B9E3B4003F959A /* YZXCollectionViewFlowLayout.m in Sources */,
 				8528FF7922BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.m in Sources */,
+				853F27C322C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.m in Sources */,
 				8528FF7C22BB67E3006F91EF /* YZXWaterfallFlowViewController.m in Sources */,
 				8528FF7F22BB67FC006F91EF /* YZXAdditionalViewController.m in Sources */,
 				8527078C22B9E380003F959A /* ViewController.m in Sources */,
