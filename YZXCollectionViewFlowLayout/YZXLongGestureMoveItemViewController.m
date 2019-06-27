@@ -103,10 +103,10 @@
                     // 如果相交一半就移动
                     if (space <= self.snapshotView.bounds.size.width / 2) {
                         self.moveIndexPath = [self.collectionView indexPathForCell:cell];
-                        //移动 会调用willMoveToIndexPath方法更新数据源
+                        // 移动item
                         [self.collectionView moveItemAtIndexPath:self.clickIndexPath toIndexPath:self.moveIndexPath];
                         
-                        // 修改数据源
+                        // 修改数据源（根据自己的逻辑处理）
                         NSMutableArray *array = [self.dataSource mutableCopy];
                         NSString *string = self.dataSource[self.clickIndexPath.item];
                         [array removeObject:string];
