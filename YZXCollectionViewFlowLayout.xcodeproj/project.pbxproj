@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		851FCC3C22C1F256002B43D0 /* YZXCoverViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FCC3B22C1F256002B43D0 /* YZXCoverViewViewController.m */; };
 		851FCC3F22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FCC3E22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m */; };
+		8520FEE622C45FD80005710F /* YZXCellLeftAlignedCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8520FEE522C45FD80005710F /* YZXCellLeftAlignedCollectionViewFlowLayout.m */; };
+		8520FEE922C460030005710F /* YZXCellLeftAlignedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8520FEE822C460030005710F /* YZXCellLeftAlignedViewController.m */; };
 		8527078922B9E380003F959A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8527078822B9E380003F959A /* AppDelegate.m */; };
 		8527078C22B9E380003F959A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8527078B22B9E380003F959A /* ViewController.m */; };
 		8527078F22B9E380003F959A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8527078D22B9E380003F959A /* Main.storyboard */; };
@@ -47,6 +49,10 @@
 		851FCC3B22C1F256002B43D0 /* YZXCoverViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCoverViewViewController.m; sourceTree = "<group>"; };
 		851FCC3D22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXCoverViewCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		851FCC3E22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCoverViewCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		8520FEE422C45FD80005710F /* YZXCellLeftAlignedCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXCellLeftAlignedCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8520FEE522C45FD80005710F /* YZXCellLeftAlignedCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCellLeftAlignedCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		8520FEE722C460030005710F /* YZXCellLeftAlignedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXCellLeftAlignedViewController.h; sourceTree = "<group>"; };
+		8520FEE822C460030005710F /* YZXCellLeftAlignedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCellLeftAlignedViewController.m; sourceTree = "<group>"; };
 		8527078422B9E380003F959A /* YZXCollectionViewFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZXCollectionViewFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8527078722B9E380003F959A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8527078822B9E380003F959A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,6 +143,8 @@
 				851FCC3B22C1F256002B43D0 /* YZXCoverViewViewController.m */,
 				853F27C122C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.h */,
 				853F27C222C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.m */,
+				8520FEE722C460030005710F /* YZXCellLeftAlignedViewController.h */,
+				8520FEE822C460030005710F /* YZXCellLeftAlignedViewController.m */,
 				852707B922B9E393003F959A /* YZXCollectionViewFlowLayout */,
 				8527078D22B9E380003F959A /* Main.storyboard */,
 				8527079022B9E381003F959A /* Assets.xcassets */,
@@ -175,6 +183,8 @@
 				8528FF7822BB6730006F91EF /* YZXWaterfallFlowCollectionViewFlowLayout.m */,
 				851FCC3D22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.h */,
 				851FCC3E22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m */,
+				8520FEE422C45FD80005710F /* YZXCellLeftAlignedCollectionViewFlowLayout.h */,
+				8520FEE522C45FD80005710F /* YZXCellLeftAlignedCollectionViewFlowLayout.m */,
 			);
 			path = YZXCollectionViewFlowLayout;
 			sourceTree = "<group>";
@@ -324,9 +334,11 @@
 				853F27C322C35F1C00B3D493 /* YZXLongGestureMoveItemViewController.m in Sources */,
 				8528FF7C22BB67E3006F91EF /* YZXWaterfallFlowViewController.m in Sources */,
 				8528FF7F22BB67FC006F91EF /* YZXAdditionalViewController.m in Sources */,
+				8520FEE622C45FD80005710F /* YZXCellLeftAlignedCollectionViewFlowLayout.m in Sources */,
 				8527078C22B9E380003F959A /* ViewController.m in Sources */,
 				8527079722B9E381003F959A /* main.m in Sources */,
 				851FCC3F22C1F280002B43D0 /* YZXCoverViewCollectionViewFlowLayout.m in Sources */,
+				8520FEE922C460030005710F /* YZXCellLeftAlignedViewController.m in Sources */,
 				852707BF22B9E49F003F959A /* YZXCollectionDecorationView.m in Sources */,
 				8527078922B9E380003F959A /* AppDelegate.m in Sources */,
 			);
