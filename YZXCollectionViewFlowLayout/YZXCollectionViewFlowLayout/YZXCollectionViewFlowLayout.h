@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol YZXCollectionViewFlowLayout <NSObject>
+@protocol YZXCollectionViewDelegateFlowLayout <NSObject>
 
 /**
  用于获取通过代理设置section的insert
@@ -24,7 +24,7 @@
 
 @interface YZXCollectionViewFlowLayout : UICollectionViewFlowLayout
 
-@property (nonatomic, weak) id<YZXCollectionViewFlowLayout>       delegate;
+@property (nonatomic, weak) id<YZXCollectionViewDelegateFlowLayout>       delegate;
 
 /**
  当页面含有navigationbar，并且collectionView的初始contentOffset.y等于navigationbar的高度时，需要设置

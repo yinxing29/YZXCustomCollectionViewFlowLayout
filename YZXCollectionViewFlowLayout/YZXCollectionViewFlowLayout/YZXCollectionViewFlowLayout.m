@@ -57,7 +57,6 @@ static NSString *const kYZXDECORATIONVIEW = @"yzx_decoration_view";
         // 设置层级
         attributes.zIndex -= 1;
         return attributes;
-        return [super layoutAttributesForDecorationViewOfKind:elementKind atIndexPath:indexPath];
     }
     return nil;
 }

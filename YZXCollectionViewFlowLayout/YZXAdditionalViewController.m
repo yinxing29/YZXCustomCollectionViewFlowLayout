@@ -9,7 +9,7 @@
 #import "YZXAdditionalViewController.h"
 #import "YZXCollectionVIewFlowLayout.h"
 
-@interface YZXAdditionalViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, YZXCollectionViewFlowLayout>
+@interface YZXAdditionalViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, YZXCollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) UICollectionView       *collectionView;
 
